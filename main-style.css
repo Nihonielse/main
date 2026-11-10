@@ -4,164 +4,164 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
 
 html {
-  font-family: 'Zen Kaku Gothic New', sans-serif;
+	font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
 }
 
 .hidden,
 [hidden] {
-  display: none;
+	display: none;
 }
 
 a {
-  color: #2a62ff;
-  text-decoration: none;
+	color: #2a62ff;
+	text-decoration: none;
 }
 
 a:visited {
-  color: #2a62ff;
+	color: #2a62ff;
 }
 
 a:hover {
-  color: #2f1aff;
+	color: #2f1aff;
 }
 
 h1 {
-  margin: 0;
-  padding: 0;
-  background-color: #eee;
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
 }
 
 div#LeftSpace {
-  margin-left: 8px;
+	margin-left: 8px;
 }
 
 footer {
-  position: sticky;
-  top: 100vh;
-  background-color: #eee;
-  text-align: center;
+	position: sticky;
+	top: 100vh;
+	background-color: #eee;
+	text-align: center;
 }
 
 ol#Breadcrumb {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 ol#Breadcrumb li {
-  display: inline-block;
+	display: inline-block;
 }
 
 ol#Breadcrumb li::after {
-  content: ' >';
-  display: inline-block;
+	content: ' >';
+	display: inline-block;
 }
 
 ol#Breadcrumb li:last-child::after {
-  content: '';
+	content: '';
 }
 
 input {
-  padding: 2px;
-  border: 2px solid #c0c0c0;
-  border-radius: 4px;
+	padding: 2px;
+	border: 2px solid #c0c0c0;
+	border-radius: 4px;
 }
 
 input[type="submit"] {
-  background-color: #25a5ff;
-  color: #ffffff;
-  padding: 4px;
+	background-color: #25a5ff;
+	color: #ffffff;
+	padding: 4px;
 }
 
 input[type="submit"]:hover {
-  background-color: #1546ee;
-  color: #fefefe;
+	background-color: #1546ee;
+	color: #fefefe;
 }
 
 input[type="file"] {
-  display: none;
+	display: none;
 }
 
 button,
 label:has(input[type="file"]) {
-  background-color: #e9e9ed;
-  color: #000000;
-  display: inline-block;
-  padding: 2px;
-  border: 1px solid #8f8f9d;
-  border-radius: 4px;
-  font-family: 'Zen Kaku Gothic New', sans-serif;
+	background-color: #e9e9ed;
+	color: #000000;
+	display: inline-block;
+	padding: 2px;
+	border: 1px solid #8f8f9d;
+	border-radius: 4px;
+	font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
 button:hover,
 label:has(input[type="file"]):hover {
-  background-color: #d0d0d7;
+	background-color: #d0d0d7;
 }
 
 button:active,
 label:has(input[type="file"]):active {
-  background-color: #b1b1b9;
+	background-color: #b1b1b9;
 }
 
 textarea.noresize {
-  resize: none;
+	resize: none;
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #222222;
-    color: #ffffff;
-  }
+	body {
+		background-color: #222222;
+		color: #ffffff;
+	}
 
-  h1,
-  footer {
-    background-color: #555555;
-  }
+	h1,
+	footer {
+		background-color: #555555;
+	}
 
-  a,
-  a:visited {
-    color: #6e5ffc;
-  }
+	a,
+	a:visited {
+		color: #6e5ffc;
+	}
 
-  a:hover {
-    color: #9d93ff;
-  }
+	a:hover {
+		color: #9d93ff;
+	}
 
-  footer a,
-  footer a:visited {
-    color: #1229c9;
-  }
+	footer a,
+	footer a:visited {
+		color: #1229c9;
+	}
 
-  footer a:hover {
-    color: #2f3fc5;
-  }
+	footer a:hover {
+		color: #2f3fc5;
+	}
 
-  textarea,
-  input {
-    background-color: #151515;
-    color: #ffffff;
-  }
+	textarea,
+	input {
+		background-color: #151515;
+		color: #ffffff;
+	}
 
-  button,
-  label:has(input[type="file"]) {
-    background-color: #303030;
-    color: #ffffff;
-  }
+	button,
+	label:has(input[type="file"]) {
+		background-color: #303030;
+		color: #ffffff;
+	}
 
-  button:hover,
-  label:has(input[type="file"]):hover {
-    background-color: #606060;
-  }
+	button:hover,
+	label:has(input[type="file"]):hover {
+		background-color: #606060;
+	}
 
-  button:active,
-  label:has(input[type="file"]):active {
-    background-color: #454545;
-  }
+	button:active,
+	label:has(input[type="file"]):active {
+		background-color: #454545;
+	}
 
 }
